@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ReStore\\API\\API.csproj": {}
+    "C:\\ReStore\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\ReStore\\API\\API.csproj": {
+    "C:\\ReStore\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ReStore\\API\\API.csproj",
+        "projectUniqueName": "C:\\ReStore\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\ReStore\\API\\API.csproj",
+        "projectPath": "C:\\ReStore\\api\\API.csproj",
         "packagesPath": "C:\\Users\\preet\\.nuget\\packages\\",
-        "outputPath": "C:\\ReStore\\API\\obj\\",
+        "outputPath": "C:\\ReStore\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\preet\\AppData\\Roaming\\NuGet\\NuGet.Config",
