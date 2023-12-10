@@ -1,6 +1,6 @@
-import { List } from '@mui/icons-material';
 import { Product } from '../../app/models/products';
 import ProductCard from './ProductCard';
+import { Grid } from '@mui/material';
 
 interface Props {
   products: Product[];
@@ -8,11 +8,13 @@ interface Props {
 
 const ProductList = ({ products }: Props) => {
   return (
-    <List>
+    <Grid container spacing={4}>
       {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
+        <Grid item xs={4} key={product.id}>
+          <ProductCard product={product} />
+        </Grid>
       ))}
-    </List>
+    </Grid>
   );
 };
 
